@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 module.exports = () => {
-  mongoose.connect(`mongodb://localhost/padisahKartlariDB`, {
+  mongoose.connect(`${process.env.DB_HOST}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
