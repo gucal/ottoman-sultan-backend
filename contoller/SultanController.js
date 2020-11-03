@@ -18,6 +18,8 @@ const postSultan = (req, res) => {
     title: req.body.title,
     firstDate: req.body.firstDate,
     lastDate: req.body.lastDate,
+    mother: req.body.mother,
+    father: req.body.father,
     desc: req.body.desc,
     avatar: req.body.avatar,
     period: req.body.period,
