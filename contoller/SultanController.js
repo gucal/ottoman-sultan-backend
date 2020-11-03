@@ -1,4 +1,6 @@
 const Sultan = require('../models/Sultan');
+const mongoose = require('mongoose');
+const { ObjectId } = mongoose.Types;
 
 const getAllSultans = (req, res) => {
   Sultan.find({})
