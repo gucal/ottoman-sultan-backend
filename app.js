@@ -12,7 +12,8 @@ const sultanRouter = require('./routes/sultan');
 const app = express();
 
 //db connection
-const db = require('./helper/db')();
+require('dotenv').config();
+require('./helper/db')();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
