@@ -1,5 +1,4 @@
 {
-  "main": "./bin/www",
   "name": "padisah-kartlari-express-backend",
   "version": "0.0.0",
   "private": true,
